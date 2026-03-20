@@ -3,8 +3,8 @@
 Welcome to my personal portfolio! I am an aspiring **IoT Developer** from Myanmar, focusing on bridging the gap between hardware and software.
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3 (Custom Animations), Bootstrap 5
-- **Hardware/IoT:** ESP32, Arduino, Various Sensors (DHT11, HC-SR04)
+- **Frontend:** HTML5, CSS3 (Custom Animations), Bootstrap 5, Javascript
+- **Hardware/IoT:** ESP32, Arduino, Various Sensors
 - **Backend:** Python (Flask/Django)
 
 ## 🌟 Key Features
@@ -13,7 +13,7 @@ Welcome to my personal portfolio! I am an aspiring **IoT Developer** from Myanma
 - **Contact Integration:** Easy access to my professional social links.
 
 ## 📈 Learning Journey
-Currently mastering **JavaScript** and exploring international career opportunities in the IoT field.
+Currently mastering **JavaScript** and exploring international career opportunities.
 
 ---
 *Feel free to explore my code and reach out for collaborations!*
