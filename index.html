@@ -125,7 +125,7 @@
           <!-- social icons link -->
           <div class="hero-social">
             <a
-              href="https://github.com/ThoonPhyo"
+              href="https://github.com/ThoonPhyoAung/"
               target="_blank"
               class="social-link"
             >
@@ -138,7 +138,11 @@
             >
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" class="social-link">
+            <a
+              href="https://www.linkedin.com/in/thoon-phyo-3223192b9/"
+              target="_blank"
+              class="social-link"
+            >
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
@@ -217,7 +221,7 @@
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 g-4">
-          <!-- fronted skills -->
+          <!-- frontend skills -->
           <div class="col-lg-6 mx-auto">
             <div class="card skill-card border-0 shadow-lg h-100">
               <div class="card-body p-4 p-lg-5">
@@ -244,7 +248,15 @@
                   </span>
 
                   <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
+                    <i class="fab fa-react text-info me-1"></i> React
+                  </span>
+
+                  <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
                     <i class="fab fa-bootstrap text-purple me-1"></i> Bootstrap
+                  </span>
+
+                  <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
+                    <i class="fas fa-wind text-info me-1"></i> Tailwind CSS
                   </span>
                 </div>
               </div>
@@ -268,6 +280,11 @@
                   <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
                     <i class="fab fa-python text-warning me-1"></i> Python
                   </span>
+
+                  <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
+                    <i class="fas fa-cubes text-success me-1"></i> Django
+                  </span>
+
                   <span class="badge py-2 px-3 rounded-pill skill-badge fs-6">
                     <i class="fas fa-flask text-light me-1"></i> Flask
                   </span>
@@ -343,60 +360,255 @@
         <div class="p-5 text-center">
           <h2 class="h1 text-white fw-bold">My Projects</h2>
           <p class="lead about-title-label">
-            Showcasing my work in Web Development & IoT
+            Showcasing my work in Web Development &amp; IoT
           </p>
         </div>
 
+        <!-- Filter Buttons -->
         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mt-5">
           <button
             type="button"
             class="btn btn-outline-light btn-lg rounded-pill projects-btn active"
+            data-filter="all"
           >
-            <i class="fas fa-th-large me-1"></i>
-            All
+            <i class="fas fa-th-large me-1"></i> All
           </button>
           <button
             type="button"
             class="btn btn-outline-light btn-lg rounded-pill projects-btn"
+            data-filter="web"
           >
-            <i class="fas fa-globe me-1"></i>
-            Web Dev
+            <i class="fas fa-globe me-1"></i> Web Dev
           </button>
           <button
             type="button"
             class="btn btn-outline-light btn-lg rounded-pill projects-btn"
+            data-filter="iot"
           >
-            <i class="fas fa-microchip me-1"></i>
-            IoT
+            <i class="fas fa-microchip me-1"></i> IoT
           </button>
         </div>
 
         <div class="album py-5">
           <div class="container">
-            <!-- web projects -->
+            <!-- Web Development Section -->
             <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-3"
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5 project-row"
               id="web-dev"
             >
               <!-- project 1 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+              <!-- Project: MakerHub MM Platform -->
+              <div class="col project-card-item" data-category="web">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
                   <div class="project-img-container">
                     <div class="github-slide-tab text-center">
                       <a
-                        href="https://github.com/ThoonPhyo/Arduino-Learning-Hub/"
+                        href="https://github.com/ThoonPhyoAung/makerhub-mm"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
                     </div>
 
                     <img
-                      src="images/a_l_h.png"
+                      src="images/makerhub_mm.png"
                       class="card-img"
-                      alt="Project"
+                      alt="MakerHub MM Web Platform"
+                    />
+                  </div>
+
+                  <div class="card-body p-4 text-white">
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-1 text-info"
+                      style="
+                        font-size: 0.7rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                      "
+                    >
+                      <i class="fas fa-laptop-code me-2"></i> Web Development
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
+                    >
+                      <h5 class="fw-bold mb-0">MakerHub MM</h5>
+                    </div>
+
+                    <p
+                      class="project-text small mb-3"
+                      style="text-align: justify; min-height: 80px"
+                    >
+                      A dedicated hub for Myanmar’s IoT makers and developers.
+                      Features component sharing, hardware listing, and learning
+                      resources designed to streamline collaboration and project
+                      building.
+                    </p>
+
+                    <div
+                      class="mb-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
+                    >
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-html5 text-danger me-1"></i> HTML5
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-css3-alt text-primary me-1"></i> CSS3
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i
+                          class="fab fa-bootstrap me-1"
+                          style="color: #7952b3"
+                        ></i>
+                        Bootstrap 5
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-js text-warning me-1"></i> JavaScript
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-rocket text-primary me-1"></i> Vercel
+                      </span>
+                    </div>
+
+                    <a
+                      href="https://makerhub-mm.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-outline-info w-100 rounded-pill"
+                    >
+                      Live Demo <i class="fas fa-external-link-alt ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 2 -->
+              <!-- Project: Personal Developer Portfolio -->
+              <div class="col project-card-item" data-category="web">
+                <div
+                  class="card project-card border-0 shadow-lg h-100 rounded-4"
+                >
+                  <div class="project-img-container">
+                    <div class="github-slide-tab text-center">
+                      <a
+                        href="https://github.com/ThoonPhyoAung/my-portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i> GitHub Code
+                      </a>
+                    </div>
+
+                    <img
+                      src="images/my-portfolio.png"
+                      class="card-img"
+                      alt="Thoon Phyo Aung Developer Portfolio"
+                    />
+                  </div>
+
+                  <div class="card-body p-4 text-white">
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-1 text-info"
+                      style="
+                        font-size: 0.7rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                      "
+                    >
+                      <i class="fas fa-user-code me-2"></i> Web Development
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
+                    >
+                      <h5 class="fw-bold mb-0">Thoon Phyo Aung's Portfolio</h5>
+                    </div>
+
+                    <p
+                      class="project-text small mb-3"
+                      style="text-align: justify; min-height: 80px"
+                    >
+                      Personal portfolio website highlighting Full-Stack Web and
+                      IoT capabilities. Features animated radial gradient
+                      backgrounds, responsive layouts, categorized project
+                      sections, and direct contact integration.
+                    </p>
+
+                    <div
+                      class="mb-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
+                    >
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-react text-info me-1"></i> React.js
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i
+                          class="fab fa-bootstrap me-1"
+                          style="color: #7952b3"
+                        ></i>
+                        Bootstrap 5
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-js text-warning me-1"></i> JavaScript
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-rocket text-primary me-1"></i> Vercel
+                      </span>
+                    </div>
+
+                    <a
+                      href="https://my-portfolio-phi-one-20.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-outline-info w-100 rounded-pill"
+                    >
+                      Live Demo <i class="fas fa-external-link-alt ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 3 -->
+              <div class="col project-card-item" data-category="web">
+                <div
+                  class="card project-card border-0 shadow-lg h-100 rounded-4"
+                >
+                  <div class="project-img-container">
+                    <div class="github-slide-tab text-center">
+                      <a
+                        href="https://github.com/ThoonPhyo/Serene-Sips/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i> GitHub Code
+                      </a>
+                    </div>
+
+                    <img
+                      src="images/serenesips.png"
+                      class="card-img"
+                      alt="Serene Sips"
                     />
                   </div>
 
@@ -415,7 +627,94 @@
                     <div
                       class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
                     >
-                      <!-- <i class="fas fa-microchip text-info me-2"></i> -->
+                      <h5 class="fw-bold mb-0">Serene Sips</h5>
+                    </div>
+
+                    <p
+                      class="project-text small mb-3"
+                      style="text-align: justify; min-height: 80px"
+                    >
+                      A modern and minimalist cafe landing page designed to
+                      showcase premium coffee blends and a cozy ambiance. The
+                      project focuses on clean UI/UX, responsive layouts, and
+                      elegant typography for coffee lovers.
+                    </p>
+
+                    <div
+                      class="mb-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
+                    >
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-html5 text-danger me-1"></i> HTML5
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-css3-alt text-primary me-1"></i> CSS3
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fab fa-js text-warning me-1"></i> JavaScript
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-rocket text-primary me-1"></i> Vercel
+                      </span>
+                    </div>
+
+                    <a
+                      href="https://serene-sips-neon.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-outline-info w-100 rounded-pill"
+                    >
+                      Live Demo <i class="fas fa-external-link-alt ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 4 -->
+              <div class="col project-card-item" data-category="iweb">
+                <div
+                  class="card project-card border-0 shadow-lg h-100 rounded-4"
+                >
+                  <div class="project-img-container">
+                    <div class="github-slide-tab text-center">
+                      <a
+                        href="https://github.com/ThoonPhyo/Arduino-Learning-Hub/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i> GitHub Code
+                      </a>
+                    </div>
+
+                    <img
+                      src="images/a_l_h.png"
+                      class="card-img"
+                      alt="Arduino Learning Hub MM"
+                    />
+                  </div>
+
+                  <div class="card-body p-4 text-white">
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-1 text-info"
+                      style="
+                        font-size: 0.7rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                      "
+                    >
+                      <i class="fas fa-laptop-code me-2"></i> Web Development
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
+                    >
                       <h5 class="fw-bold mb-0">Arduino Learning Hub MM</h5>
                     </div>
 
@@ -461,6 +760,7 @@
                     <a
                       href="https://arduino-learning-hub-mm.vercel.app/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       Live Demo <i class="fas fa-external-link-alt ms-1"></i>
@@ -468,25 +768,28 @@
                   </div>
                 </div>
               </div>
-              <!-- project 2 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+
+              <!-- project 5 -->
+              <!-- Project: IoT Store E-Commerce Frontend -->
+              <div class="col project-card-item" data-category="web">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
                   <div class="project-img-container">
                     <div class="github-slide-tab text-center">
                       <a
-                        href="https://github.com/ThoonPhyo/Serene-Sips/"
+                        href="https://github.com/ThoonPhyoAung/iot-store-html-css"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
                     </div>
 
                     <img
-                      src="images/serenesips.png"
+                      src="images/iot-store-html-css.png"
                       class="card-img"
-                      alt="Project"
+                      alt="IoT Accessories E-commerce Store"
                     />
                   </div>
 
@@ -500,28 +803,37 @@
                         font-weight: 600;
                       "
                     >
-                      <i class="fas fa-laptop-code me-2"></i> Web Development
+                      <i class="fas fa-shopping-cart me-2"></i> Web Development
                     </div>
+
                     <div
                       class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
                     >
-                      <!-- <i class="fas fa-mug-hot text-info me-2"></i> -->
-                      <h5 class="fw-bold mb-0">Serene Sips</h5>
+                      <h5 class="fw-bold mb-0">IoT Accessories Store</h5>
                     </div>
 
                     <p
                       class="project-text small mb-3"
                       style="text-align: justify; min-height: 80px"
                     >
-                      A modern and minimalist cafe landing page designed to
-                      showcase premium coffee blends and a cozy ambiance. The
-                      project focuses on clean UI/UX, responsive layouts, and
-                      elegant typography for coffee lovers.
+                      A professional-grade frontend e-commerce platform tailored
+                      for makers. Features minimalist tech UI layouts, technical
+                      hardware spec displays (voltage, pinouts), and
+                      mobile-responsive controls.
                     </p>
 
                     <div
                       class="mb-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
                     >
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i
+                          class="fab fa-bootstrap me-1"
+                          style="color: #7952b3"
+                        ></i>
+                        Bootstrap 5
+                      </span>
                       <span
                         class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
                       >
@@ -535,18 +847,14 @@
                       <span
                         class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
                       >
-                        <i class="fab fa-js text-warning me-1"></i> JavaScript
-                      </span>
-                      <span
-                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
-                      >
                         <i class="fas fa-rocket text-primary me-1"></i> Vercel
                       </span>
                     </div>
 
                     <a
-                      href="https://serene-sips-neon.vercel.app/"
+                      href="https://iot-store-html-css.vercel.app/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       Live Demo <i class="fas fa-external-link-alt ms-1"></i>
@@ -554,8 +862,9 @@
                   </div>
                 </div>
               </div>
-              <!-- project 3 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+
+              <!-- project 6 -->
+              <div class="col project-card-item" data-category="web">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
@@ -564,6 +873,7 @@
                       <a
                         href="https://github.com/ThoonPhyo/iphone17-launch-page"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
@@ -572,7 +882,7 @@
                     <img
                       src="images/iphone17.png"
                       class="card-img"
-                      alt="Project"
+                      alt="iPhone 17 Launch Page"
                     />
                   </div>
 
@@ -591,7 +901,6 @@
                     <div
                       class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
                     >
-                      <!-- <i class="fab fa-apple text-info me-2"></i> -->
                       <h5 class="fw-bold mb-0">iPhone 17 Launch Page</h5>
                     </div>
 
@@ -633,6 +942,7 @@
                     <a
                       href="https://iphone17-launch-page.vercel.app/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       Live Demo <i class="fas fa-external-link-alt ms-1"></i>
@@ -640,21 +950,19 @@
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!-- iot projects -->
-            <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-3"
-              id="iot"
-            >
-              <!-- project 1 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+              <!-- project 7 -->
+              <div class="col project-card-item" data-category="web">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
                   <div class="project-img-container">
                     <div class="github-slide-tab text-center">
-                      <a href="https://github.com/ThoonPhyo" target="_blank">
+                      <a
+                        href="https://github.com/ThoonPhyo/Creanova"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
                     </div>
@@ -662,7 +970,7 @@
                     <img
                       src="images/crenova.png"
                       class="card-img"
-                      alt="Project"
+                      alt="Creanova"
                     />
                   </div>
 
@@ -681,7 +989,6 @@
                     <div
                       class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
                     >
-                      <!-- <i class="fas fa-lightbulb text-info me-2"></i> -->
                       <h5 class="fw-bold mb-0">Creanova</h5>
                     </div>
 
@@ -728,6 +1035,7 @@
                     <a
                       href="https://creanova-iota.vercel.app/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       Live Demo <i class="fas fa-external-link-alt ms-1"></i>
@@ -735,15 +1043,122 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- project 2 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+            <!-- iot projects -->
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-3 project-row"
+              id="iot"
+            >
+              <!-- project 1 -->
+              <!-- Project: ESP32-S3 Water Level & Motor Control System -->
+              <div class="col project-card-item" data-category="iot">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
                   <div class="project-img-container">
                     <div class="github-slide-tab text-center">
-                      <a href="https://github.com/ThoonPhyo" target="_blank">
+                      <a
+                        href="https://github.com/ThoonPhyoAung/esp32-ubidots-waterlevel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i> GitHub Code
+                      </a>
+                    </div>
+
+                    <img
+                      src="https://github.com/ThoonPhyoAung/esp32-ubidots-waterlevel/blob/main/circuit_image.png?raw=true"
+                      class="card-img"
+                      alt="ESP32-S3 Water Level & Motor Control System"
+                    />
+                  </div>
+
+                  <div class="card-body p-4 text-white">
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-1 text-info"
+                      style="
+                        font-size: 0.7rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                      "
+                    >
+                      <i class="fas fa-microchip me-2"></i> IoT Automation
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
+                    >
+                      <h5 class="fw-bold mb-0">
+                        ESP32-S3 Water &amp; Motor Control
+                      </h5>
+                    </div>
+
+                    <p
+                      class="project-text small mb-3"
+                      style="text-align: justify; min-height: 80px"
+                    >
+                      A dual-mode (Auto/Manual) smart water management system
+                      powered by ESP32-S3 and HC-SR04 ultrasonic sensors.
+                      Streams real-time water percentage over MQTT to Ubidots,
+                      featuring rate-limit protections and physical button
+                      overrides.
+                    </p>
+
+                    <div
+                      class="mb-4 d-flex flex-wrap justify-content-center justify-content-lg-start gap-2"
+                    >
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-microchip text-warning me-1"></i>
+                        ESP32-S3
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-cloud text-info me-1"></i> Ubidots
+                        (MQTT)
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-wave-square text-primary me-1"></i>
+                        HC-SR04
+                      </span>
+                      <span
+                        class="badge bg-dark border border-secondary text-secondary p-2 rounded-3"
+                      >
+                        <i class="fas fa-code text-success me-1"></i> C++ /
+                        PubSubClient
+                      </span>
+                    </div>
+
+                    <a
+                      href="https://github.com/ThoonPhyoAung/esp32-ubidots-waterlevel"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-outline-info w-100 rounded-pill"
+                    >
+                      View Source Code <i class="fab fa-github ms-1"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 2 -->
+              <div class="col project-card-item" data-category="iot">
+                <div
+                  class="card project-card border-0 shadow-lg h-100 rounded-4"
+                >
+                  <div class="project-img-container">
+                    <div class="github-slide-tab text-center">
+                      <a
+                        href="https://github.com/ThoonPhyo/Arduino-Smart-Motar-Control-V-2.0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
                     </div>
@@ -751,7 +1166,7 @@
                     <img
                       src="images/circuit_image.png"
                       class="card-img"
-                      alt="Project"
+                      alt="Smart Motor Control"
                     />
                   </div>
 
@@ -811,6 +1226,7 @@
                     <a
                       href="https://github.com/ThoonPhyo/Arduino-Smart-Motar-Control-V-2.0"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       View Source Code <i class="fab fa-github ms-1"></i>
@@ -820,13 +1236,17 @@
               </div>
 
               <!-- project 3 -->
-              <div class="col-lg-4 col-md-6 mb-4">
+              <div class="col project-card-item" data-category="iot">
                 <div
                   class="card project-card border-0 shadow-lg h-100 rounded-4"
                 >
                   <div class="project-img-container">
                     <div class="github-slide-tab text-center">
-                      <a href="https://github.com/ThoonPhyo" target="_blank">
+                      <a
+                        href="https://github.com/ThoonPhyo/Smart-Motar-Control"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i class="fab fa-github"></i> GitHub Code
                       </a>
                     </div>
@@ -834,7 +1254,7 @@
                     <img
                       src="images/Screenshot 2026-03-20 065217.png"
                       class="card-img"
-                      alt="Project"
+                      alt="GSM Motor Control"
                     />
                   </div>
 
@@ -854,7 +1274,7 @@
                       class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2"
                     >
                       <i class="fas fa-sms text-info me-2"></i>
-                      <h5 class="fw-bold mb-0">Smart Motor Control</h5>
+                      <h5 class="fw-bold mb-0">GSM Motor Control</h5>
                     </div>
 
                     <p
@@ -900,6 +1320,7 @@
                     <a
                       href="https://github.com/ThoonPhyo/Smart-Motar-Control"
                       target="_blank"
+                      rel="noopener noreferrer"
                       class="btn btn-outline-info w-100 rounded-pill"
                     >
                       View Source Code <i class="fab fa-github ms-1"></i>
@@ -913,64 +1334,140 @@
       </div>
     </section>
 
-    <!-- contact section -->
-    <section class="contact-section" id="contact">
+    <!-- Filter Logic -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const filterBtns = document.querySelectorAll(".projects-btn");
+        const webSection = document.getElementById("web-dev");
+        const iotSection = document.getElementById("iot");
+
+        if (!webSection || !iotSection) return;
+
+        filterBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            // 1. Update Active State on Buttons
+            filterBtns.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+
+            const filter = btn.getAttribute("data-filter");
+
+            // 2. Smoothly Toggle Sections
+            const toggleDisplay = (element, show) => {
+              if (show) {
+                element.style.display = "flex";
+                setTimeout(() => {
+                  element.style.opacity = "1";
+                }, 10);
+              } else {
+                element.style.opacity = "0";
+                element.style.display = "none";
+              }
+            };
+
+            if (filter === "all") {
+              toggleDisplay(webSection, true);
+              toggleDisplay(iotSection, true);
+            } else if (filter === "web") {
+              toggleDisplay(webSection, true);
+              toggleDisplay(iotSection, false);
+            } else if (filter === "iot") {
+              toggleDisplay(webSection, false);
+              toggleDisplay(iotSection, true);
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- =================================================================================== -->
+    <!-- Contact Section - Formspree Connected & AI Assisted  (Formspree Connected)          -->
+    <!-- =================================================================================== -->
+    <section class="contact-section py-5" id="contact">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center mb-4">
             <h2 class="h1 text-white fw-bold">Get In Touch</h2>
-            <p class="lead about-title-label">
-              Have a project in mind? Let's talk!
+            <p class="lead about-title-label mb-2">
+              Have a project, IoT idea, or collaboration in mind? Let's talk!
+            </p>
+            <!-- Acknowledgment of AI collaboration -->
+            <p class="text-secondary small">
+              <i class="fas fa-robot me-1 text-info"></i> Designed &amp; refined
+              through developer &amp; AI collaboration
             </p>
           </div>
+        </div>
 
-          <div
-            class="col-11 col-md-8 col-lg-6 mx-auto p-4 p-md-5 contact-form mb-0"
-          >
-            <form class="needs-validation" novalidate="">
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <label for="Name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="Name" required />
-                </div>
-
-                <div class="col-sm-6">
-                  <label for="email" class="form-label">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="you@example.com"
-                    required
-                  />
-                </div>
-
-                <div class="col-12">
-                  <label for="subject" class="form-label"
-                    >Subject
-                    <span class="text-secondary">(Optional)</span></label
-                  >
-                  <input type="text" class="form-control" id="subject" />
-                </div>
-
-                <div class="col-12">
-                  <label for="message" class="form-label">Messages</label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    rows="5"
-                    required
-                  ></textarea>
-                </div>
-              </div>
-
-              <button
-                class="w-100 btn btn-lg mt-4 rounded-4 p-3 sm-btn"
-                type="submit"
+        <div class="row justify-content-center">
+          <!-- Centered Working Formspree Contact Form -->
+          <div class="col-lg-8 col-md-10">
+            <div
+              class="p-4 p-md-5 contact-form rounded-4 border border-secondary border-opacity-25 bg-dark text-white shadow-lg"
+            >
+              <form
+                action="https://formspree.io/f/xlgqalwr"
+                method="POST"
+                class="needs-validation"
               >
-                <i class="fa-solid fa-paper-plane me-2"></i> Send Message
-              </button>
-            </form>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="Name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control bg-dark text-white border-secondary"
+                      id="Name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control bg-dark text-white border-secondary"
+                      id="email"
+                      placeholder="you@example.com"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="subject" class="form-label">
+                      Subject <span class="text-secondary">(Optional)</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="subject"
+                      class="form-control bg-dark text-white border-secondary"
+                      id="subject"
+                      placeholder="Project / Collaboration / Query"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      name="message"
+                      class="form-control bg-dark text-white border-secondary"
+                      id="message"
+                      rows="5"
+                      placeholder="Write your message here..."
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button
+                  class="w-100 btn btn-info btn-lg mt-4 rounded-4 p-3 text-dark fw-bold"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-paper-plane me-2"></i> Send Message
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -982,7 +1479,7 @@
         <div class="text-center">
           <div class="footer-social mb-3">
             <a
-              href="https://github.com/ThoonPhyo"
+              href="https://github.com/ThoonPhyoAung"
               target="_blank"
               class="footer-social-link"
             >
