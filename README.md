@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3 (Custom Animations), Bootstrap 5, Javascript
+- **Frontend:** HTML5, CSS3 (Custom Animations), Bootstrap 5, Javascript, Ract Js, Tailwind CSS
 - **Hardware/IoT:** ESP32, Arduino, Various Sensors
 - **Backend:** Python (Flask/Django)
 
