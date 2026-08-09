@@ -43,7 +43,7 @@ Welcome to my personal developer portfolio! This site showcases my journey, proj
 * **Name:** Thoon Phyo Aung
 * **Role:** Full-Stack Web & IoT Developer
 * **GitHub:** [@ThoonPhyoAung](https://github.com/ThoonPhyoAung)
-* **Live Portfolio:** [my-portfolio-phi-one-20.vercel.app](https://thoonphyoaung.vercel.app/)
+* **Live Portfolio:** [https://thoonphyoaung.vercel.app/](https://thoonphyoaung.vercel.app/)
 
 ---
 
